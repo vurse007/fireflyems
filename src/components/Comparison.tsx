@@ -71,14 +71,14 @@ function FeatureIcon({ value }: { value: boolean | string }) {
   }
   if (value === 'partial') {
     return (
-      <div className="w-8 h-8 rounded-full bg-amber-500/20 flex items-center justify-center">
-        <Minus className="w-4 h-4 text-amber-400" />
+      <div className="w-8 h-8 rounded-full bg-firefly-400/20 flex items-center justify-center">
+        <Minus className="w-4 h-4 text-firefly-300" />
       </div>
     )
   }
   return (
-    <div className="w-8 h-8 rounded-full bg-red-500/10 flex items-center justify-center">
-      <X className="w-4 h-4 text-red-400/60" />
+    <div className="w-8 h-8 rounded-full bg-firefly-900/30 flex items-center justify-center">
+      <X className="w-4 h-4 text-firefly-700" />
     </div>
   )
 }

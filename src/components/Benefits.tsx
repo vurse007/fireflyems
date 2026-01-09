@@ -12,7 +12,7 @@ const benefits = [
     suffix: '%',
     title: 'Boost Muscle Function',
     description: 'Users on EMS therapy experience a 15% improvement in muscle function after 5-6 weeks.',
-    color: 'from-emerald-500 to-green-600',
+    color: 'from-[#c96344] to-[#a04530]',
     delay: 0,
   },
   {
@@ -21,7 +21,7 @@ const benefits = [
     suffix: '%',
     title: 'Fight Injury',
     description: 'Long-term EMS therapy preserves 17% more muscle mass in injured muscles.',
-    color: 'from-cyan-500 to-teal-600',
+    color: 'from-[#d97556] to-[#b5503a]',
     delay: 0.1,
   },
   {
@@ -30,7 +30,7 @@ const benefits = [
     suffix: '%',
     title: 'Build Muscle Strength',
     description: 'Users see a 60% increase in muscle strength when EMS therapy is incorporated into exercise.',
-    color: 'from-amber-500 to-orange-600',
+    color: 'from-[#c9836a] to-[#a45540]',
     delay: 0.2,
   },
   {
@@ -39,7 +39,7 @@ const benefits = [
     suffix: '%',
     title: 'Prevent Atrophy',
     description: 'Patients experience a 40% reduction in muscular atrophy during periods of immobilization with EMS therapy.',
-    color: 'from-violet-500 to-purple-600',
+    color: 'from-[#b5704f] to-[#7a3f30]',
     delay: 0.3,
   },
 ]

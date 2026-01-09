@@ -81,7 +81,7 @@ export default function HowItWorks() {
                   <div className="relative mb-8">
                     <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-firefly-500 to-firefly-600 
                                   flex items-center justify-center shadow-lg
-                                  group-hover:shadow-[0_0_30px_rgba(34,197,94,0.3)] transition-shadow duration-500">
+                                  group-hover:shadow-[0_0_30px_rgba(201,99,68,0.3)] transition-shadow duration-500">
                       <step.icon className="w-8 h-8 text-white" />
                     </div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 rounded-lg bg-dark-900 border border-firefly-600/50

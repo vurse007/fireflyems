@@ -24,7 +24,7 @@ export default function Hero() {
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
-            boxShadow: '0 0 10px rgba(249, 115, 22, 0.8), 0 0 20px rgba(249, 115, 22, 0.4)',
+            boxShadow: '0 0 10px rgba(201, 99, 68, 0.8), 0 0 20px rgba(201, 99, 68, 0.4)',
           }}
           animate={{
             y: [0, -30, 0],

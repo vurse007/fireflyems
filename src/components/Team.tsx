@@ -7,30 +7,30 @@ const team = [
   {
     name: 'Pranav Kolli',
     role: 'Team Lead',
-    bio: 'Coordinating team efforts and driving project vision. Focused on delivering innovative solutions for muscle rehabilitation.',
+    bio: 'I am passionate about patient care and post-discharge needs for patients to assist them with integration into their daily routines.',
     image: '/team/pranav.jpg',
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-[#c96344] to-[#a04530]',
   },
   {
     name: 'Ayush Patel',
     role: 'Programming and Tool Development Lead',
-    bio: 'Building the software systems and mobile applications that power the Firefly EMS experience.',
+    bio: 'I\'m a high school student who is passionate about technology, programming, and its uses in the field of medicine. I hope to explore more about the intersection of healthcare and technology, and use my knowledge to improve the lives of patients.',
     image: '/team/ayush.jpg',
-    gradient: 'from-green-500 to-emerald-500',
+    gradient: 'from-[#d97556] to-[#b5503a]',
   },
   {
     name: 'Calyx Yang',
     role: 'Mechanical Engineering Lead',
     bio: 'Designing and prototyping the physical EMS sleeve hardware for optimal comfort and effectiveness.',
     image: '/team/calyx.jpg',
-    gradient: 'from-orange-500 to-amber-500',
+    gradient: 'from-[#c9836a] to-[#a45540]',
   },
   {
     name: 'Adith Alagiri',
     role: 'Product Design and Implementation Lead',
     bio: 'Shaping user experience and ensuring seamless integration of design with functionality.',
     image: '/team/adith.jpg',
-    gradient: 'from-purple-500 to-violet-500',
+    gradient: 'from-[#b5704f] to-[#7a3f30]',
   },
 ]
 
@@ -101,7 +101,7 @@ export default function Team() {
                 {/* Avatar Image */}
                 <div className="relative mb-5 pt-2">
                   <div className={`w-24 h-24 mx-auto rounded-2xl bg-gradient-to-br ${member.gradient} p-0.5
-                                shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden`}>
+                                shadow-lg overflow-hidden`}>
                     <img 
                       src={member.image} 
                       alt={member.name}
@@ -112,9 +112,6 @@ export default function Team() {
                       }}
                     />
                   </div>
-                  {/* Glow effect */}
-                  <div className={`absolute inset-0 w-24 h-24 mx-auto rounded-2xl bg-gradient-to-br ${member.gradient} 
-                                opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-500`} />
                 </div>
 
                 {/* Info */}
@@ -130,9 +127,6 @@ export default function Team() {
                   </p>
                 </div>
 
-                {/* Border gradient */}
-                <div className={`absolute inset-0 rounded-3xl bg-gradient-to-br ${member.gradient} opacity-0 
-                              group-hover:opacity-10 transition-opacity duration-500 pointer-events-none`} />
               </div>
             </motion.div>
           ))}
