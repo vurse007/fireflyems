@@ -1,2 +1,9 @@
 node_modules
 .next
+.env*
+.env.local
+.env.development
+.env.production
+.dart_tool
+out
+.DS_Store
