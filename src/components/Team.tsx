@@ -28,7 +28,7 @@ const team = [
   {
     name: 'Adith Alagiri',
     role: 'Product Design and Implementation Lead',
-    bio: 'I am passionate about applying my knowledge in matlab and aerospace engineering to develop technology that can support underrepresented demographics in my community.',
+    bio: 'I am passionate about applying my knowledge in MATLAB and engineering to develop technology that can support people in my community.',
     image: '/team/adith.jpg',
     gradient: 'from-[#b5704f] to-[#7a3f30]',
   },
